@@ -1,4 +1,4 @@
-package VotingSystem;
+package Tutorial3.VotingSystem;
 
 public class VotingSystem {
   int labourPartyVotes = 0;
