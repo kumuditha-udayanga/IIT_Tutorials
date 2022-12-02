@@ -12,7 +12,6 @@ public class Main {
         }
         System.out.println(list);
     }
-
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<Integer>(4);
         arr.add(5);

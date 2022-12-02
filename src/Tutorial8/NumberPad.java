@@ -5,26 +5,18 @@ import java.awt.*;
 
 public class NumberPad extends JPanel {
     public NumberPad (){
-        GridBagLayout layout = new GridBagLayout();
-        this.setLayout(layout);
-
-        Button b1  = new Button("1");
-        GridBagConstraints b1Constrains = new GridBagConstraints();
-        b1Constrains.gridx = 1;
-        b1Constrains.gridy = 2;
-
-        Button b2  = new Button("2");
-        GridBagConstraints b2Constrains = new GridBagConstraints();
-        b2Constrains.gridx = 2;
-        b2Constrains.gridy = 2;
-
-        Button b3  = new Button("3");
-        GridBagConstraints b3Constrains = new GridBagConstraints();
-        b3Constrains.gridx = 3;
-        b3Constrains.gridy = 2;
-
-        this.add(b1, b1Constrains);
-        this.add(b2, b2Constrains);
-        this.add(b3, b3Constrains);
+//      Grid Layout Test
+        setLayout(new GridLayout(4,4,1,1));
+        add(new Button("1"));
+        add(new Button("2"));
+        add(new Button("3"));
+        add(new Button("4"));
+        add(new Button("5"));
+        add(new Button("6"));
+        add(new Button("7"));
+        add(new Button("8"));
+        add(new Button("9"));
+        add(new Button("0"));
+        add(new Button("-"));
     }
 }
